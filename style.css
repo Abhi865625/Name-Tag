@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: rgb(50, 50, 50);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(212, 105, 23);
+  background-color: rgb(219, 255, 127);
+}
+
+.main {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#name {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px;
+  outline-style: none;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#name:hover {
+  border-color: rgb(205, 63, 50);
+}
+
+button {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  border-style: none;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgba(59, 20, 212, 0.5);
+  color: white;
+}
+
+button:hover {
+  border-color: rgb(205, 63, 50);
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag {
+  position: relative;
+  margin: 20px auto 10px;
+  background-color: rgb(71, 255, 89);
+  width: 30%;
+  max-width: 400px;
+  padding: 20px;
+  color: #000000;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.tag:hover {
+  transform: translateY(-10px);
+}
